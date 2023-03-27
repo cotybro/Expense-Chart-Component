@@ -1,0 +1,89 @@
+article {
+    background-color: #FFFBF6;
+    border-radius: 20px;
+    padding: 2rem 2.5rem 2.5rem 2.5rem;
+}
+
+.spending-container {
+    border-bottom: 1px solid #F8E9DD;
+    margin-bottom: 2rem;
+}
+
+.spending-title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #382314;
+    margin-bottom: 4.125rem;
+}
+
+.chart {
+    width: 460px;
+    height: 178px;
+    margin-bottom: 2rem;
+}
+
+.total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-month {
+    font-size: 1.125rem;
+    color: #92857A;
+    line-height: 23px;
+}
+
+.month-amount {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #382314;
+}
+
+.percent {
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #382314;
+    line-height: 23px;
+}
+
+.last-month {
+    font-size: 1.125rem;
+    color: #92857A;
+    line-height: 23px;
+}
+
+.as-bottom {
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 570px) { 
+
+    article {
+        padding: 1.5rem 1.25rem 1.25rem 1.25rem;
+    }
+    .spending-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .spending-container {
+        margin-bottom: 1.5rem;
+    }
+
+    .chart {
+        width: 303px;
+        margin-bottom: 1.5rem;
+    }
+
+    .total-month,
+    .percent,
+    .last-month {
+        font-size: .9375rem;
+    }
+
+    .month-amount {
+        font-size: 1.875rem;
+    }
+}

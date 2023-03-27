@@ -1,0 +1,59 @@
+.balance-container {
+    background-color: #EC755D;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.circles {
+    position: relative;
+}
+
+.box-white,
+.box-brown {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.box-white {
+    background-color: transparent;
+    border: 2px solid white;
+    position: absolute;
+    right: 25px;
+}
+
+.box-brown {
+    background-color: #382314;
+}
+
+.balance-text {
+    margin-bottom: .5rem;
+    font-size: 1.125rem;
+    line-height: 23px;
+}
+
+@media screen and (max-width: 570px) { 
+    .balance-container {
+        margin-bottom: 1rem;
+    }
+
+    .balance-text {
+        font-size: .9375rem;
+    }
+
+    .balance-amount {
+        font-size: 1.5rem;
+    }
+    
+    .box-white,
+    .box-brown {
+        width: 40px;
+        height: 40px;
+    }
+
+}

@@ -1,0 +1,12 @@
+.apexcharts-menu-icon {
+    display: none;
+}
+
+path:hover {
+    cursor: pointer;
+}
+
+.apexcharts-bar-area:nth-child(3) {
+    fill: #76B5BC;
+}
+
