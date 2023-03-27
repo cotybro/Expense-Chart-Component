@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-
+![screencapture-expense-chart-component-mu-vercel-app-2023-03-27-02_38_44](https://user-images.githubusercontent.com/36529826/227874703-4d80b304-e662-484f-8d3b-cc6ee8ca05c5.png)
 
 ### Links
 
@@ -41,8 +41,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- [React](https://reactjs.org/) - JS library
-- [ApexCharts](https://apexcharts.com/)
+- [React](https://reactjs.org/) - JS Library
+- [ApexCharts](https://apexcharts.com/) - JS Library
 
 ## Author
 
